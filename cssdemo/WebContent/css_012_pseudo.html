@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>css_012_pseudo</title>
+<style type="text/css">
+/* p요소의 첫번째 라인에 대한 스타일 적용 */
+p:first-line{
+	background-color:yellow
+}
+/* p요소 앞에 컨텐츠를 추가*/
+p:before{
+	content:"========CSS Start======="
+}
+/* p요소 위에 컨텐츠를 추가*/
+p:after{
+	content:url(images/gosu.jpg)
+}
+</style>
+</head>
+<body>
+	<p> The::before pseudo-element can be </p>
+</body>
+</html>
